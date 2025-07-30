@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background: linear-gradient(120deg,rgb(176, 255, 176),rgb(255, 255, 160)) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-container{
+  border: 2px solid black;
+}
+input{
+  width: 100%;
+}
+button[type="submit"]{
+  position: absolute;
+  left: 23em;
+}
+li{
+  list-style: none;
+  background-color: red;
+  border: 2px solid white;
+  padding: 1px;
+  margin: 2px;
+}
